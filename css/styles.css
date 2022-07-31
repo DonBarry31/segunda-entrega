@@ -1,0 +1,35 @@
+
+#logo-gordo{
+    border-radius: 85% ;
+    height: 100%;
+    width: 45% ;
+}
+.logoG{
+    width: 30%;
+    height: 21%;
+}
+@media screen and (max-width: 991px) {
+    #logo-gordo{
+        float: right;
+    }
+}
+#fotoS{
+    width: 60%;
+    height: 60%;
+}
+nav{
+    animation-name: nav;
+    animation-timing-function: ease-in-out;
+    animation-duration: 2s;
+    animation-delay: 0s;
+}
+@keyframes nav{
+    0%{
+        width: 0%;
+        opacity: 0%;
+    }
+    100%{
+        width: 100%;
+        opacity: 100%;
+    }
+}
